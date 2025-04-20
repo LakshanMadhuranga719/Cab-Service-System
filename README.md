@@ -1,2 +1,2 @@
 # Cab-Service-System
-Designed a web-based cab booking system, 
+Designed a web-based cab booking system
