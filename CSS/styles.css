@@ -1,0 +1,233 @@
+/* styles.css */
+
+/* Navigation bar styles */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    z-index: 1000; /* Ensure navigation bar is above other content */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-list a:hover {
+    color: #f0a500;
+}
+
+/* Main content styles */
+main {
+    margin-top: 80px; /* Ensure main content starts below the navigation bar */
+}
+
+/* Cab image styles */
+.cab-image {
+    width: 100%;
+    display: block;
+}
+
+/* Welcome section styles */
+#welcome {
+    text-align: center;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+#welcome h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.description {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.description p {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 0;
+}
+/* styles.css */
+
+/* Navigation bar styles */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    z-index: 1000; /* Ensure navigation bar is above other content */
+    font-family: Arial, sans-serif; /* Specify the custom font family */
+}
+
+/* Navigation bar link styles */
+.nav-list a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+    font-family: Arial, sans-serif; /* Specify the custom font family */
+}
+
+/* Main content styles */
+main {
+    margin-top: 80px; /* Ensure main content starts below the navigation bar */
+    font-family: Arial, sans-serif; /* Specify the custom font family */
+}
+
+/* Welcome section styles */
+#welcome {
+    text-align: center;
+    margin-top: 20px; /* Adjust as needed */
+    font-family: Arial, sans-serif; /* Specify the custom font family */
+}
+
+/* Welcome section title styles */
+#welcome h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+/* Welcome section paragraph styles */
+.description {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.description p {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-family: Arial, sans-serif; /* Specify the custom font family */
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 0;
+}
+/* styles.css */
+
+/* Image container styles */
+.image-container {
+    position: relative;
+    text-align: center;
+}
+
+/* Cab image styles */
+.cab-image {
+    width: 100%;
+    display: block;
+}
+
+/* Overlay text styles */
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+/* styles.css */
+
+/* Image container styles */
+.image-container {
+    position: relative;
+    text-align: center;
+}
+
+/* Cab image styles */
+.cab-image {
+    width: 100%;
+    display: block;
+}
+
+/* Overlay text styles */
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+/* styles.css */
+
+/* Overlay text styles */
+.overlay-text {
+    position: absolute;
+    top: 30%; /* Adjusted position */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+

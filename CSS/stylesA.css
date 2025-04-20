@@ -1,0 +1,140 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    z-index: 1000; /* Ensure navigation bar is above other content */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-list a:hover {
+    color: #f0a500;
+}
+
+main {
+    margin-top: 80px; /* Ensure main content starts below the navigation bar */
+}
+
+/* Cab image styles */
+.cab-image {
+    width: 100%;
+    display: block;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+#cab-available {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#cab-available h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.cab-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cab-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.cab-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.cab-item h3 {
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+.cab-item p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 0;
+}
+.image-container {
+    position: relative;
+    text-align: center;
+}
+.overlay-text {
+    position: absolute;
+    top: 85%; /* Adjusted position */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
